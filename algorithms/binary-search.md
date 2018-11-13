@@ -106,7 +106,8 @@ public int largestSmaller(int[] nums, int target) {
 
 ### P5. Find mountain peak in array
 
-- `1 3 7 23 57 ... 100 99 86 44 32 21`
+- test cases
+    - `1 3 7 23 57 ... 100 99 86 44 32 21`
 - 根据单调性来判断
 
 ### P6. Binary Search in a sorted array with unknown size
