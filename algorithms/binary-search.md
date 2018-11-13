@@ -19,7 +19,7 @@ __Idea__
 
 __Coding Tricks__
 
-- __循环进入条件__
+- **循环进入条件**
     - `left + 1 < right`
         - 取决于最后一次循环是否需要检查左右两个pivot确定答案
         - 需要做post processing
