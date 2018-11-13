@@ -25,6 +25,8 @@
         - `nums[mid] < target` - 和mid直接相关
         - `cnt < k` - 和mid间接相关
             - [LC 719](https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm)
+    - 经典方法
+        - Quick Select - find k-th smallest in unsorted array
 
 -----
 ## Binary Search Problems
