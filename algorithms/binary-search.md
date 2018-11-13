@@ -34,8 +34,6 @@
 -----
 ## Binary Search Problems
 
-### 找到合适的排除一半选项的方法
-
 ### P1. Find the largest element that is smaller than target
 
 ```java
@@ -102,7 +100,7 @@ public int largestSmaller(int[] nums, int target) {
 - Find largest smaller or equal number.
 - Find the kth cloest number using linear scan or binary elimination
 
-### P5. Find mountain peak in array
+### P3. Find mountain peak in array
 
 - test cases
     - `1 3 7 23 57 ... 100 99 86 44 32 21`
