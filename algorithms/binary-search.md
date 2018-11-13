@@ -30,6 +30,10 @@ __Coding Tricks__
     - 使用如下的会触发边界条件的例子测试, Eg. `[0]`, `[0, 1]`, `[0, 1, 2]`
 - __二分计算__
     - `mid = start + (end - start) / 2`
+- **排除一半的错误选项**
+    - 判断条件
+        - `nums[mid] < target`
+        - `cnt < k`
 
 ### P1. Find the largest element that is smaller than target
 
