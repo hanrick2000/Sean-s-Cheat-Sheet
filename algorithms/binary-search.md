@@ -29,7 +29,6 @@
 __Typical problems__
 
 - Search problems in **Binary Search Tree** or **Sorted Array**
-- Using **Binary Search**
 
 ### P1. Find the largest element that is smaller than target
 
