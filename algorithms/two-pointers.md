@@ -51,6 +51,10 @@ Problems:
     - move the fast pointer for each time
     - not necessarily move the slow pointer
     
+- P5. Count pairs with a difference no more than T
+    - LC 719. Find K-th Smallest Pair Distance
+    - O(n)
+    
 ## 相向双指针
 
 ### 2-Sum
