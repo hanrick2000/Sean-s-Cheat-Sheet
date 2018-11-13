@@ -26,7 +26,9 @@
         - `cnt < k` - 和mid间接相关
             - [LC 719](https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm)
     - 经典方法
+        - Binary Reduction in two sorted array
         - Quick Select - find k-th smallest in unsorted array
+        - Binary Reduction in two sorted array
 
 -----
 ## Binary Search Problems
@@ -118,7 +120,9 @@ public int largestSmaller(int[] nums, int target) {
 
 
 
-### P7. find the kth smallest / median in two sorted array
+### Binary Reduction in two sorted array
+
+find the kth smallest / median in two sorted array
 
 Binary Reduction on candidates
 
@@ -131,9 +135,9 @@ Binary Reduction on candidates
     - moving step initially set to `k`
     - moving step decrease by half for each time `k -> k - k/2`
 
-### P7. find kth in unsorted array
+### Quick Select 
 
-Quick Select
+find kth in unsorted array
 
 - `xxxxxxxxxxN` -> `xxxxxxxNyyy`
 - partition the array into two parts
