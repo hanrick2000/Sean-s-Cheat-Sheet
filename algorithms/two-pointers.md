@@ -52,7 +52,7 @@ Problems:
     - not necessarily move the slow pointer
     
 - P5. Count pairs with a difference no more than T
-    - LC 719. Find K-th Smallest Pair Distance
+    - [LC 719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm)
     - O(n)
     
 ## 相向双指针
