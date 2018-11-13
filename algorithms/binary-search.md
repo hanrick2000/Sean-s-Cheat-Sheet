@@ -2,23 +2,10 @@
 
 # Binary Search
 
-__Two types of problems__
-
-- Search problems in **Binary Search Tree** or **Sorted Array**
-    - Using **Binary Search**
-    - 广义的适用问题范围：每次循环会减少解空间，不能死循环；不能在循环中，把正确答案排除掉。
-- Binary Search Tree operation problems
-
-__Idea__
-
-- 使用**循环**`loop`不断地移动指针`curr`。
-- 使用**分类讨论**`if-else`控制指针`curr`的进入其中一个分支，扔掉一半的选项。
-
------
-## Binary Search Problems
-
-__Coding Tricks__
-
+- **Idea** - **不断地排除一半错误选项**
+    - 使用**循环**`loop`不断地移动指针`curr`。
+    - 使用**分类讨论**`if-else`控制指针`curr`的进入其中一个分支，扔掉一半的选项。
+- **适用问题范围** - 每次循环会减少解空间，不能死循环；不能在循环中，把正确答案排除掉。
 - **循环进入条件**
     - `left + 1 < right`
         - 取决于最后一次循环是否需要检查左右两个pivot确定答案
@@ -35,6 +22,14 @@ __Coding Tricks__
         - `nums[mid] < target` - 和mid直接相关
         - `cnt < k` - 和mid间接相关
             - [LC 719](https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm)
+
+-----
+## Binary Search Problems
+
+__Typical problems__
+
+- Search problems in **Binary Search Tree** or **Sorted Array**
+- Using **Binary Search**
 
 ### P1. Find the largest element that is smaller than target
 
