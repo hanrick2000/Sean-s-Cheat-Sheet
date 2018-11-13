@@ -25,10 +25,11 @@
         - `nums[mid] < target` - 和mid直接相关
         - `cnt < k` - 和mid间接相关
             - [LC 719](https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm)
-    - 经典方法
+    - 经典问题
         - Binary Reduction in two sorted array
         - Quick Select - find k-th smallest in unsorted array
-        - Binary Reduction in two sorted array
+        - Jump out and jump in an array with unknown size
+
 
 -----
 ## Binary Search Problems
@@ -107,7 +108,9 @@ public int largestSmaller(int[] nums, int target) {
     - `1 3 7 23 57 ... 100 99 86 44 32 21`
 - 根据单调性来判断
 
-### P6. Binary Search in a sorted array with unknown size
+### Jump out and jump in an array with unknown size
+
+Binary Search in a sorted array with unknown size
 
 - Step 1 - jump out
 - Step 2 - jump in
@@ -117,7 +120,6 @@ public int largestSmaller(int[] nums, int target) {
 | Worst case | $$n=2^{k-1}+1$$ | $$n=10^{k-1}+1$$ |
 | Jump out - Time | $$log_{2}n$$ | $$log_{10}n$$ |
 | Jump in - Time | $$log_{2}10n$$ | $$log_{2}2n$$ |
-
 
 
 ### Binary Reduction in two sorted array
