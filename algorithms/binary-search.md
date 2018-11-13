@@ -143,3 +143,12 @@ find kth in unsorted array
 - partition the array into two parts
 - remove one part from the two
 - keep doing until the pivot is exactly at the kth position
+
+### Binary Search in lazy unknown array
+
+[LC 719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm)
+
+ - Binary Search + Lazily Count Pair Differences in sorted array
+ - Binary Search + Bucket sort
+
+
