@@ -29,6 +29,8 @@
 -----
 ## Binary Search Problems
 
+### 找到合适的排除一半选项的方法
+
 ### P1. Find the largest element that is smaller than target
 
 ```java
@@ -90,14 +92,6 @@ public int largestSmaller(int[] nums, int target) {
     - case 3: `array[mid] == array[right]`
         - worst case - all the elements are the same
 
-### P3. Binary Search in 2D sorted matrix
-
-### P4. Find the first occurance of target
-
-### Follow-up. Find the last occurance of target
-
-### Follow-up. Find the closest number to target
-
 ### Follow-up. Find the K closest number to target
 
 - Find largest smaller or equal number.
@@ -120,6 +114,8 @@ public int largestSmaller(int[] nums, int target) {
 | Jump out - Time | $$log_{2}n$$ | $$log_{10}n$$ |
 | Jump in - Time | $$log_{2}10n$$ | $$log_{2}2n$$ |
 
+
+
 ### P7. find the kth smallest / median in two sorted array
 
 Binary Reduction on candidates
@@ -135,10 +131,9 @@ Binary Reduction on candidates
 
 ### P7. find kth in unsorted array
 
-Quick Selection
+Quick Select
 
 - `xxxxxxxxxxN` -> `xxxxxxxNyyy`
 - partition the array into two parts
 - remove one part from the two
 - keep doing until the pivot is exactly at the kth position
-
