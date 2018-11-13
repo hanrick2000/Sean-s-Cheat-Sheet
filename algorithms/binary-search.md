@@ -32,8 +32,9 @@ __Coding Tricks__
     - `mid = start + (end - start) / 2`
 - **排除一半的错误选项**
     - 判断条件
-        - `nums[mid] < target`
-        - `cnt < k`
+        - `nums[mid] < target` - 和mid直接相关
+        - `cnt < k` - 和mid间接相关
+            - [LC 719](https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm)
 
 ### P1. Find the largest element that is smaller than target
 
