@@ -135,7 +135,7 @@ Binary Reduction on candidates
     - moving step initially set to `k`
     - moving step decrease by half for each time `k -> k - k/2`
 
-### Quick Select 
+### Quick Select in unsorted array
 
 find kth in unsorted array
 
