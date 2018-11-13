@@ -5,7 +5,10 @@
 - **Idea** - **不断地排除一半错误选项**
     - 使用**循环**`loop`不断地移动指针`curr`。
     - 使用**分类讨论**`if-else`控制指针`curr`的进入其中一个分支，扔掉一半的选项。
-- **适用问题范围** - 每次循环会减少解空间，不能死循环；不能在循环中，把正确答案排除掉。
+- **适用问题范围**
+    - **Typical problems** 
+        - Search problems in **Binary Search Tree** or **Sorted Array**
+    - 每次循环会减少解空间，不能死循环；不能在循环中，把正确答案排除掉。
 - **循环进入条件**
     - `left + 1 < right`
         - 取决于最后一次循环是否需要检查左右两个pivot确定答案
@@ -25,10 +28,6 @@
 
 -----
 ## Binary Search Problems
-
-__Typical problems__
-
-- Search problems in **Binary Search Tree** or **Sorted Array**
 
 ### P1. Find the largest element that is smaller than target
 
