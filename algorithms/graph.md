@@ -206,4 +206,7 @@ loop do
 
 
 
+## From S^T to S*T
 
+Viterbi Algorithm
+Coke Range Machine
