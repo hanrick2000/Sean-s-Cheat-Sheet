@@ -199,6 +199,8 @@ loop do
 
 2. Topological Sorting 拓扑排序
 
+**Idea** - A circle does not have any nodes with zero in-degree.
+
 - construct edge map (out) and in-degree map
 - remove nodes with zero indegree
 - keep removing
