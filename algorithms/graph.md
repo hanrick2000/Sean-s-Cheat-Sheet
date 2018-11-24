@@ -204,6 +204,8 @@ loop do
 - A circle does not have any nodes with zero in-degree, while other graphs always do.
 - So we keep removing nodes with zero in-degrees from the graph and see if there are nodes left.
 
+**Steps**
+
 - construct edge map (out) and in-degree map
 - remove nodes with zero indegree
 - keep removing
