@@ -192,8 +192,9 @@ loop do
     candidateNodes.filter(NOT in frontier && NOT in exploredSet)
     frontiers <- insertAll(candidateNodes)
 ```
+## Check if there exists a loop
 
-## Check if there exists a loop in a DAG
+### in a DAG
 
 1. DFS and check if there is duplicate explored node in one path
 
@@ -211,6 +212,11 @@ loop do
 - keep removing
 - if there are nodes left, there exists loops.
 
+### in a Undirected Graph
+
+1. Union-find (Disjoint Set)
+
+A disjoint-set data structure is a data structure that keeps track of a set of elements partitioned into a number of disjoint (non-overlapping) subsets.
 
 
 ## From S^T to S*T
