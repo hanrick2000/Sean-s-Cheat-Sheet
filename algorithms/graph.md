@@ -220,7 +220,7 @@ A disjoint-set data structure is a data structure that keeps track of the belong
 
 - Each node has one pointer
 - The root has empty pointer
-- Each subset can be represented by the root
+- Each subset only have one root
 
 ```
 1 -> 2 -> 3
