@@ -216,7 +216,8 @@ loop do
 
 1. Union-find (Disjoint Set)
 
-A disjoint-set data structure is a data structure that keeps track of the belongings of elements.
+A disjoint-set data structure is a data structure that keeps track of the belongings of nodes.
+
 
 
 ## From S^T to S*T
