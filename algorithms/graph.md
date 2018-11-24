@@ -236,6 +236,17 @@ A disjoint-set data structure is a data structure that keeps track of the belong
         - ```rootA = find(A)```
         - ```rootB = find(B)```
         - ```connect rootA -> rootB```
+- Steps to find circle
+    - given nodes and edges
+    - use a parent array to record the parent of each node: ```parent[node.length]```
+    - initialize all nodes to be disjoint sets
+        - for each node, ```parent[i] = -1```
+        - for each edge A -> B,
+            - ```rootA = find(A)```
+            - ```rootB = find(B)```
+            - if rootA != rootB: union(A, B)
+            - else: return Circle Detected
+    
 
 
 ## From S^T to S*T
