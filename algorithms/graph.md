@@ -199,7 +199,10 @@ loop do
 
 2. Topological Sorting 拓扑排序
 
-**Idea** - A circle does not have any nodes with zero in-degree.
+**Idea** 
+
+- A circle does not have any nodes with zero in-degree, while other graphs always do.
+- So we keep removing nodes with zero in-degrees from the graph and see if there are nodes left.
 
 - construct edge map (out) and in-degree map
 - remove nodes with zero indegree
