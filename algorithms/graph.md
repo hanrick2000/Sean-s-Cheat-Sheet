@@ -218,6 +218,21 @@ loop do
 
 A disjoint-set data structure is a data structure that keeps track of the belongings of nodes.
 
+- Each node has one pointer
+- The root has empty pointer
+- Each subset can be represented by the root
+
+```
+1 -> 2 -> 3
+5 -> 2
+4 -> 3
+```
+
+- Operations
+    - ```find```
+        - Eg. ```find(1) = 3```, ```find(4) = 3```
+        - 1 and 4 belongs to same subset.
+    - ```union```
 
 
 ## From S^T to S*T
