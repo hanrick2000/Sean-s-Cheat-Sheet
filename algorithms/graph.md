@@ -194,7 +194,7 @@ loop do
 ```
 ## Check if there exists a loop
 
-### in a DAG
+### in a Directed Graph
 
 1. DFS and check if there is duplicate explored node in one path
 
