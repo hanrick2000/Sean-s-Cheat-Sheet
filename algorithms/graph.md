@@ -197,7 +197,7 @@ loop do
 
 1. DFS and check if there is duplicate explored node in one path
 
-2. Topological Sorting 拓扑排序
+2. Topological Sorting
 
 **Idea** 
 
