@@ -232,7 +232,10 @@ A disjoint-set data structure is a data structure that keeps track of the belong
     - ```find```
         - Eg. ```find(1) = 3```, ```find(4) = 3```
         - 1 and 4 belongs to same subset.
-    - ```union```
+    - ```union(A, B)```
+        - ```rootA = find(A)```
+        - ```rootB = find(B)```
+        - ```connect rootA -> rootB```
 
 
 ## From S^T to S*T
