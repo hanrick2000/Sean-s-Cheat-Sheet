@@ -248,7 +248,8 @@ A disjoint-set data structure is a data structure that keeps track of the belong
             - ```rootB = find(B)```
             - if rootA != rootB: union(A, B)
             - else: return Circle Detected
-    
+
+[LeetCode 685. Redundant Connection II](https://www.youtube.com/watch?v=lnmJT5b4NlM)
 
 
 ## From S^T to S*T
