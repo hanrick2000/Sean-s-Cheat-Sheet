@@ -216,6 +216,8 @@ loop do
 
 1. Union-find (Disjoint Set)
 
+[Princeton Slide](https://www.cs.princeton.edu/~rs/AlgsDS07/01UnionFind.pdf)
+
 A disjoint-set data structure is a data structure that keeps track of the belongings of nodes.
 
 - Each node has one pointer
