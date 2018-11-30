@@ -13,11 +13,12 @@
 ### Time & Space Complexity Analysis
 ### Physical Data Structures
 
-- Array
+- **Array**
     - Unsorted Array
-        - Sorting Algortihms
+        - **Sorting Algortihms**
     - Sorted Array
-        - Binary Search
+        - **Binary Search**
+            - **Binary Reduction**
     - Two Pointers
     - Char Array
         - String
