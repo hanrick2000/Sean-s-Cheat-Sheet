@@ -37,6 +37,7 @@
 ### Logical Data Structure
 
 - `implementEncoding and Decoding`
+- `implement LRUCache`
 - **Binary Tree**
     - Binary Search Tree
         - red black tree
