@@ -17,12 +17,12 @@
     - `implement ArrayList`
     - Unsorted Array
         - **Sorting Algortihms**
-            - `Quick sort`
-            - `Merge sort`
-            - `Comparsion`
+        - `Quick sort`
+        - `Merge sort`
+        - `Comparsion`
     - Sorted Array
         - **Binary Search**
-            - `Quick Select`
+        - `Quick Select`
     - **Two Pointers**
     - Char Array
         - **String**
