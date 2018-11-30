@@ -61,6 +61,10 @@
 - **Trie tree**
 - Segmentation tree
 
+## Other Problems
+
+- `Minimum Cuts For Palindromes`
+
 ## Java Coding
 
 - `StringBuilder`
