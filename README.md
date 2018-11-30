@@ -49,7 +49,6 @@
 
 ## Java Coding
 
-
 - `StringBuilder`
 - `implement iterator`
 - Thread safe - Mutex synchronized
