@@ -66,3 +66,9 @@
 - `StringBuilder`
 - `implement iterator`
 - Thread safe - Mutex synchronized
+
+## OOD
+
+- `Parking Lot`
+- `Factory pattern`
+- `Singleton`
