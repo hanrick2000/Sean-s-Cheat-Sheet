@@ -36,6 +36,7 @@
     - Binary Search Tree
         - red black tree
     - `N-ary tree serialize/deserialize`
+    - `Sibiling jump in tree`
 - **Graph**
     - `Connectivity`
 - **Queue & Stack**
