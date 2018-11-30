@@ -48,6 +48,7 @@
 - **Heap**
 - **Hash Table**
     - `implement HashMap`
+    - `implement LRUCache`
     - `implement HashCode()`
 - **Trie tree**
 - Segmentation tree
