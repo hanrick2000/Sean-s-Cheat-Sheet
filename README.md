@@ -18,6 +18,7 @@
         - **Sorting Algortihms**
             - `Quick sort`
             - `Merge sort`
+            - `Comparsion`
     - Sorted Array
         - **Binary Search**
             - `Quick Select`
