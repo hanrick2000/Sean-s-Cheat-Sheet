@@ -19,10 +19,10 @@
     - Sorted Array
         - **Binary Search**
             - **Binary Reduction**
-    - Two Pointers
+    - **Two Pointers**
     - Char Array
-        - String
-- Linked List
+        - **String**
+- **Linked List**
 
 ### Logical Data Structure
 
