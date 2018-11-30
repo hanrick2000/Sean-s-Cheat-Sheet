@@ -31,6 +31,7 @@
 
 ### Logical Data Structure
 
+- `implementEncoding and Decoding`
 - **Binary Tree**
     - Binary Search Tree
         - red black tree
