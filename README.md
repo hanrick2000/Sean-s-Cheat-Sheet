@@ -28,6 +28,7 @@
         - **String**
         - `implementEncoding and Decoding`
 - **Linked List**
+    - `Reverse a Linked List`
 
 ### Logical Data Structure
 
