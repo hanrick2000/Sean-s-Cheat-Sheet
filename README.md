@@ -78,8 +78,6 @@
 - `Factory pattern`
 - `Singleton`
 
-
-- `BlackJack`
 ## System Design
 
 - `In-memory File System`
