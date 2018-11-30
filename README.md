@@ -42,5 +42,6 @@
 - **Heap**
 - **Hash Table**
     - `implement HashMap`
+    - `implement HashCode()`
 - **Trie tree**
 - Segmentation tree
