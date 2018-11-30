@@ -48,6 +48,7 @@
     - `Sibiling jump in tree`
     - `Lowest Common Ancestor`
     - `Path Sum`
+        - `Maximum Path Sum Binary Tree I`
 - **Graph**
     - `Connectivity`
 - **Queue & Stack**
