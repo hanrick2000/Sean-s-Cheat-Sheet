@@ -63,7 +63,9 @@
 
 ## Other Problems
 
-- `Minimum Cuts For Palindromes`
+- Dynamic Programming
+    - `Minimum Cuts For Palindromes`
+- `Skyline`
 
 ## Java Coding
 
