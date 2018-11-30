@@ -29,7 +29,7 @@
     - **Two Pointers**
     - Char Array
         - **String**
-        - `- [ ] Remove EmptySpace in String`
+        - `Remove EmptySpace in String`
         - `implementEncoding and Decoding`
 - **Linked List**
     - `Reverse a Linked List`
