@@ -16,19 +16,26 @@
 - **Array**
     - Unsorted Array
         - **Sorting Algortihms**
+            - `Quick sort`
+            - `Merge sort`
     - Sorted Array
         - **Binary Search**
             - `Quick Select`
     - **Two Pointers**
     - Char Array
         - **String**
+            - StringBuilder
 - **Linked List**
 
 ### Logical Data Structure
 
-- Binary Tree
-- Graph
-- Queue & Stack
+- **Binary Tree**
+    - Binary Search Tree
+        - red black tree
+    - `N-ary tree serialize/deserialize`
+- **Graph**
+- **Queue & Stack**
 - Heap
 - Hash Table
 - **Trie tree**
+- Segmentation tree
