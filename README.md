@@ -72,6 +72,7 @@
 - `StringBuilder`
 - `implement iterator`
 - Thread safe - Mutex synchronized
+    - `Lock`
 
 ## OOD
 
