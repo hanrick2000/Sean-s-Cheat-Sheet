@@ -26,8 +26,7 @@
     - **Two Pointers**
     - Char Array
         - **String**
-            - `StringBuilder`
-            - `implementEncoding and Decoding`
+        - `implementEncoding and Decoding`
 - **Linked List**
 
 ### Logical Data Structure
