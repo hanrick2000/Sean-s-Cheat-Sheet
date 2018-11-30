@@ -42,6 +42,7 @@
         - red black tree
         - `isBST`
         - `Insert/Delete in BST`
+    - `check complete`
     - `N-ary tree serialize/deserialize`
     - `Sibiling jump in tree`
     - `Lowest Common Ancestor`
