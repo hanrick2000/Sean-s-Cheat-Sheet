@@ -36,6 +36,7 @@
         - red black tree
     - `N-ary tree serialize/deserialize`
 - **Graph**
+    - `Connectivity`
 - **Queue & Stack**
 - **Heap**
 - **Hash Table**
