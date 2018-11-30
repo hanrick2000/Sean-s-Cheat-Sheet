@@ -43,6 +43,7 @@
         - `isBST`
         - `Insert/Delete in BST`
     - `check complete`
+    - `pre/post order traversal` - recursive and iterative style
     - `N-ary tree serialize/deserialize`
     - `Sibiling jump in tree`
     - `Lowest Common Ancestor`
