@@ -14,7 +14,7 @@
 ### Physical Data Structures
 
 - **Array**
-    - `ArrayList`
+    - `implement ArrayList`
     - Unsorted Array
         - **Sorting Algortihms**
             - `Quick sort`
@@ -31,6 +31,7 @@
 
 ### Logical Data Structure
 
+- `implement iterator`
 - **Binary Tree**
     - Binary Search Tree
         - red black tree
@@ -40,5 +41,6 @@
 - **Queue & Stack**
 - **Heap**
 - **Hash Table**
+    - `implement HashMap`
 - **Trie tree**
 - Segmentation tree
