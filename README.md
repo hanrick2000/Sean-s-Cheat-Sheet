@@ -14,6 +14,7 @@
 ### Physical Data Structures
 
 - **Array**
+    - `ArrayList`
     - Unsorted Array
         - **Sorting Algortihms**
             - `Quick sort`
@@ -36,7 +37,7 @@
     - `N-ary tree serialize/deserialize`
 - **Graph**
 - **Queue & Stack**
-- Heap
-- Hash Table
+- **Heap**
+- **Hash Table**
 - **Trie tree**
 - Segmentation tree
