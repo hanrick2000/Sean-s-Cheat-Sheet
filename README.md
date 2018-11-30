@@ -25,7 +25,7 @@
         - `Comparsion`
     - Sorted Array
         - **Binary Search**
-        - `Quick Select`
+        - `Quick Select` - k-th smallest
     - **Two Pointers**
     - Char Array
         - **String**
