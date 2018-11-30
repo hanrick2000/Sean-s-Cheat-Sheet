@@ -18,7 +18,7 @@
         - **Sorting Algortihms**
     - Sorted Array
         - **Binary Search**
-            - **Binary Reduction**
+            - `Quick Select`
     - **Two Pointers**
     - Char Array
         - **String**
@@ -31,3 +31,4 @@
 - Queue & Stack
 - Heap
 - Hash Table
+- **Trie tree**
