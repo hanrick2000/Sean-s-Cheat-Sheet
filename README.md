@@ -41,6 +41,7 @@
 - **Graph**
     - `Connectivity`
 - **Queue & Stack**
+    - Backtracking
 - **Heap**
 - **Hash Table**
     - `implement HashMap`
