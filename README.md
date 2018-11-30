@@ -7,7 +7,7 @@
 
 [https://seangone.gitbooks.io/sean-s-cheatsheet/content/](https://seangone.gitbooks.io/sean-s-cheatsheet/content/)
 
-## Contents
+## Algorithms
 
 ### Algorithm Basics
 ### Time & Space Complexity Analysis
@@ -32,7 +32,6 @@
 
 ### Logical Data Structure
 
-- `implement iterator`
 - **Binary Tree**
     - Binary Search Tree
         - red black tree
@@ -47,3 +46,10 @@
     - `implement HashCode()`
 - **Trie tree**
 - Segmentation tree
+
+## Java Coding
+
+
+- `StringBuilder`
+- `implement iterator`
+- Thread safe - Mutex synchronized
