@@ -47,7 +47,6 @@
 ## Operating Systems
 
 * [Concurrency](programming-languages/concurrency.md)
-* [Operating Systems](operating-systems.md)
 
 ## Other Languages
 
