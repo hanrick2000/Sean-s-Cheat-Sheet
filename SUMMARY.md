@@ -44,11 +44,6 @@
 * [File](java/java-file.md)
 * [JUnit Test](java/java-JTest.md)
 
-## Object Oriented Programming
-
-* [Object-Oriented Design](OOD/OOD.md)
-* [Design Pattern](OOD/design-pattern.md)
-
 ## Operating Systems
 
 * [Concurrency](programming-languages/concurrency.md)
