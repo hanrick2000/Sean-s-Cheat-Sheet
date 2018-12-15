@@ -60,12 +60,3 @@
   * [Data Structure](programming-languages/python/data-structure.md)
   * [异步](programming-languages/python/yi-bu.md)
 * [C++](programming-languages/C++.md)
-
-## System Design
-
-* [Intro](system-design/intro.md)
-* [MapReduce](system-design/mapreduce.md)
-* [Distributed File System](system-design/distributed-file-system.md)
-* [Web Crawler](system-design/webcrawler.md)
-* [URL Shortening System](system-design/urlshortened.md)
-* [Feed product](system-design/feedproduct.md)
