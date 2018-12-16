@@ -40,7 +40,6 @@ time complexity $$O(n)$$ -> $$O(k)$$
 - A Bloom filter is a data structure designed to tell you, rapidly and memory-efficiently, whether an element is present in a **set**.
 - The base data structure of a Bloom filter is a **Bit Vector**
     - To add an element to the Bloom filter, we simply **hash it a few times** and **set the bits** in the bit vector at the index of those hashes to 1.
-    - The hash functions used in a Bloom filter should be independent and uniformly distributed.
 - The price paid for this efficiency is that a Bloom filter is a **probabilistic data structure**
     - the element either is **definitely not** in the set or **may be** in the set.
     - If the bloom filter says yes, it could be not in the set.
