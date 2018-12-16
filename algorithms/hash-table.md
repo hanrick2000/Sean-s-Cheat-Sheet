@@ -9,6 +9,8 @@
 - **hash collision**
     - **close addressing (separate chaining)** - use singly linked list
     - open addressing (probe + rehash) - put in the next available bucket
+- Data Overload
+    - **rehashing**
 
 __Open Addressing__
 
@@ -34,6 +36,9 @@ __P3. find the common numbers between two sorted arrays a[N] b[M]__
 Eg. __P. Kth Smallest Sum From Two Sorted Array__
 can be used to store visited nodes.
 time complexity $$O(n)$$ -> $$O(k)$$
+
+## Bloom Filter
+
 
 
 

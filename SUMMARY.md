@@ -23,7 +23,6 @@
 * [Hash Table](algorithms/hash-table.md)
 * [Trie Tree](algorithms/trie-tree.md)
 * [Segment Tree](algorithms/segment-tree.md)
-* [Bloom Filter](algorithms/bloom -filter.md)
 
 ## Other problems
 
