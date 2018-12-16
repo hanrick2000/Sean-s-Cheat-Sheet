@@ -22,6 +22,7 @@
 * [Heap](algorithms/heap.md)
 * [Hash Table](algorithms/hash-table.md)
 * [Trie Tree](algorithms/trie-tree.md)
+* [Segment Tree](algorithms/segment-tree.md)
 
 ## Other problems
 
