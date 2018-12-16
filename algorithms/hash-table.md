@@ -7,7 +7,8 @@
 - Hash Table is a general data structure
     - `HashMap` and `HashSet` are its implementationclasses in Java.
 - **hash collision**
-    - **close addressing (separate chaining)** - use singly linked list
+    - **close addressing** 
+        - separate **chaining** - use singly linked list
     - **open addressing (probe + rehash)** - put in the next available bucket
 - Data Overload
     - **rehashing**
