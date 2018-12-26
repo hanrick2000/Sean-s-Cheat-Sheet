@@ -67,12 +67,11 @@ Note:
         - a specific realization of any class
 - **Encapsulation** **封装**
     - encapsulate data and methods in class
-    - **Data Abstraction** and A**ccess Lebels**
+    - **Data Abstraction** and **Access Lebels**
 - **Inheritance** **继承**
     - base class and derived class
     - In Java, **Interface**, **Abstract class** and Concrete class
-- **Polymorphism** **多态**
-    - **Overriding** 
+- **Polymorphism** **多态**: **Overriding**     
     - In Java, `List.get()` has different implementations. It is different for each call of different class implementation.
 
 ### Encapsulation
