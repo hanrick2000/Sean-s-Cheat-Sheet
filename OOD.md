@@ -65,7 +65,7 @@ Note:
     - Data Abstraction and Access Lebels
 - **Inheritance** **继承**
     - base class and derived class
-    - In Java, **Interface**, Abstract class**** and Concrete class
+    - In Java, **Interface**, **Abstract class** and Concrete class
 - **Polymorphism** **多态**
     - **Overriding** 
     - In Java, `List.get()` has different implementations. It is different for each call of different class implementation.
