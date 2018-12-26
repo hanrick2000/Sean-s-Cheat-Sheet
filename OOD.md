@@ -122,7 +122,7 @@ As strict as possible.
             - eg. Vehicle - Parking Spot
         - **Aggregation/Composstion/has-a** 
             - **Composition**
-                - House contains one or more rooms. Room's lifetime is controlled by House as Room will not exist without House.            
+                - House contains one or more rooms. Room's **lifetime** is controlled by House as Room will not exist without House.            
             - eg. Parking Lot - Level - Parking Spot
         - **Inheritance/is-a** 
             - eg. Car, Truck
