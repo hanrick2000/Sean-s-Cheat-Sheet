@@ -62,7 +62,7 @@ Note:
 
 - **Encapsulation** **封装**
     - encapsulate data and methods in class
-    - Data Abstraction and Access Lebels
+    - **Data Abstraction** and A**ccess Lebels**
 - **Inheritance** **继承**
     - base class and derived class
     - In Java, **Interface**, **Abstract class** and Concrete class
