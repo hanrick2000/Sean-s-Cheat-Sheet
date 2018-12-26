@@ -58,8 +58,15 @@ Note:
 **重载**：使用同名函数，但是形参不同，可以是个数，也可以是类型，顺序。
 
 
-## Three ways of OOD
+## Concepts
 
+- **Class** / **Object**
+    - class 
+        - a blueprint for a data **type**
+        - scheme
+    - object
+        - a specific realization of any class
+        - instance
 - **Encapsulation** **封装**
     - encapsulate data and methods in class
     - **Data Abstraction** and A**ccess Lebels**
