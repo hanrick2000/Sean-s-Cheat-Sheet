@@ -118,14 +118,20 @@ As strict as possible.
 2. Classes and their relationships
     - Single-responsibility Pricinple - A class should have only one job
     - **Class relationships**
-        - **Association** 
-            - eg. Vehicle - Parking Spot
-        - **Aggregation/Composstion/has-a** 
-            - **Composition**
-                - House contains one or more rooms. Room's **lifetime** is controlled by House as Room will not exist without House.            
-            - eg. Parking Lot - Level - Parking Spot
+        - **Delegation**
+            - **Dependency** (A use B)
+                - temporate connection
+            - **Association** (A has B)
+                - permernent connection
+                - eg. Vehicles ***are associated with*** Parking Spot
+            - **Aggregation**/**Composition**(A owns B)
+                - **Composition**
+                    - House ***contains*** one or more rooms. Room's ***lifetime*** is controlled by House as Room will not exist without House.
+                    - Parking Lot is composed of levels. Levels are composed of Parking Spots.
+                - **Aggregation**
+                    - Toy house built from blocks. You can ***disassemble*** it but blocks will ***remain***.
         - **Inheritance/is-a** 
-            - eg. Car, Truck
+            - Truck ***is a*** Car.
 3. For complicated designs, first focus on public methods (APIs). Discuss the implementation details later!
     - Basic functionality: use case
     - Possible extensions (Product Road Map): provide available spot locations, ...
