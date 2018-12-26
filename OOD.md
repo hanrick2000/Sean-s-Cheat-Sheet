@@ -120,7 +120,9 @@ As strict as possible.
     - **Class relationships**
         - **Association** 
             - eg. Vehicle - Parking Spot
-        - **Aggregation/Compostion/has-a** 
+        - **Aggregation/Composstion/has-a** 
+            - **Composition**
+                - House contains one or more rooms. Room's lifetime is controlled by House as Room will not exist without House.            
             - eg. Parking Lot - Level - Parking Spot
         - **Inheritance/is-a** 
             - eg. Car, Truck
