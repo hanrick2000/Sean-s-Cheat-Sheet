@@ -61,12 +61,10 @@ Note:
 ## Concepts
 
 - **Class** / **Object**
-    - class 
+    - **class** - scheme
         - a blueprint for a data **type**
-        - scheme
-    - object
+    - **object** - instance
         - a specific realization of any class
-        - instance
 - **Encapsulation** **封装**
     - encapsulate data and methods in class
     - **Data Abstraction** and A**ccess Lebels**
