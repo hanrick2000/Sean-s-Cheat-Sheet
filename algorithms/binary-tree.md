@@ -169,8 +169,10 @@ __优化__
 - **balanced binary search tree**
     - Eg. AVL tree, Red-black tree, etc 但是面试不会考定义，可能会借这个定义考基本能力。
     - Red-Black tree Implementations
+        - Guaranteed **O(log(n))** time cost for `containsKey`, `get`, `put`, `remove`
         - in Java: TreeMap/TreeSet
         - in C++: map/set
+    
 
 
 -----
