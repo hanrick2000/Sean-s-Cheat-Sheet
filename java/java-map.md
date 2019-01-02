@@ -146,8 +146,8 @@ return hashNumber & 0x7fffffff;
 - Red-Black tree Implementations
 - Guaranteed **O(log(n))** time cost for `containsKey`, `get`, `put`, `remove`
 - in Java: TreeMap/TreeSet
-- NavigableMap
-- Methods `lowerEntry`, `floorEntry`, `ceilingEntry`, and `higherEntry` return `Map.Entry` objects associated with keys respectively **less than**, **less than or equal**, **greater than or equal**, and **greater than** a given key, returning `null` if there is no such key
+- implements `NavigableMap`
+    - Methods `lowerEntry`, `floorEntry`, `ceilingEntry`, and `higherEntry` return `Map.Entry` objects associated with keys respectively **less than**, **less than or equal**, **greater than or equal**, and **greater than** a given key, returning `null` if there is no such key
 
 
 
