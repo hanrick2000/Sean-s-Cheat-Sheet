@@ -35,14 +35,14 @@
 - How does it work?
     - **Step 1. Marking**
         - The first step in the process is called **marking**. This is where the garbage collector identifies which pieces of memory are in use and which are not.
-        - [!marking](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide3.png)
+        - ![marking](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide3.png)
     - **Step 2. Normal Deletion**
         - Normal deletion removes unreferenced objects leaving referenced objects and pointers to free space.
         - Inconvenient to allocate space again due to too many fragments, so we need compacting.
-        - [!normal deletion](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1b.png)
+        - ![normal deletion](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1b.png)
     - **Step 2a Deletion with Compacting**
         - To further improve performance, in addition to deleting unreferenced objects, you can also compact the remaining referenced objects. By moving referenced object together, this makes new memory allocation much easier and faster.
-        - [!deletion with compacting](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide4.png)
+        - ![deletion with compacting](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide4.png)
 
 ### Why Generational Garbage Collection?
 
