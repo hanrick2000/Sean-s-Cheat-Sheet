@@ -79,7 +79,7 @@ public static void main(String[] args){
 - Create objects **without specifying the exact class** of object that will be created. Separate instance/object creation logic from its usage
     - eg. We want lots of `Shape`s. Some of them can be `Rectangle`s. Some of them can be `Circle`s. We want to create those from its `Name`s.
     - Create lots of Shapes, including `Rectangle`, `Triangle` and `Circle` using the names or other properties.
-    - Do not need to know about the constructor detail. 
+    - Do not need to know about the constructor detail.
 
 ## Abstract Factory
 
