@@ -52,7 +52,7 @@
 
 ## Operating Systems
 
-* [Concurrency](programming-languages/concurrency.md)
+* [Concurrency](concurrency.md)
 
 ## Other Languages
 
