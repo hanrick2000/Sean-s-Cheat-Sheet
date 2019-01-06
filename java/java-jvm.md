@@ -22,7 +22,7 @@
     - GC is the mechanism to automatically detect/delete the unused objects.
 - Why do we need it?
     - More efficiently manage dynamic memory allocation.
-
+- Where is it implemented?
     - Stack
         - local varible, tracking method call flow, return address etc. 
         - one per thread
