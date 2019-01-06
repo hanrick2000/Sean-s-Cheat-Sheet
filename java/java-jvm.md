@@ -2,8 +2,6 @@
 
 # Java Virtual Machine JVM
 
-[Java tutorial](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
-
 - **JRE** 
     - Java Runtime Environment
     - JRE is the JVM program.
@@ -14,6 +12,8 @@
     - [!HotSpot JVM: Architecture](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1.png)
 
 ## Garbage Collection
+
+[Java tutorial](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
 
 - What is GC?
     - GC is the mechanism to automatically detect/delete the unused objects.
