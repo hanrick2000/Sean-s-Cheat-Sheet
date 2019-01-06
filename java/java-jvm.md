@@ -83,13 +83,11 @@ from a set of the root references/objects, find all the objects reachable throug
 ### finalize method
 
 - **finalize method**
-
-It is a method that the Garbage Collector always **calls just before the deletion/destroying** the object which is eligible for Garbage Collection, so as to perform clean-up activity. Clean-up activity means closing the resources associated with that object like Database Connection, Network Connection or we can say resource de-allocation. Remember it is not a reserved keyword.
-
-Once finalize method completes immediately Garbage Collector destroy that object. finalize method is present in Object class and its syntax is:
+    - It is a method that the Garbage Collector always **calls just before the deletion/destroying** the object which is eligible for Garbage Collection, so as **to perform clean-up activity**. 
+    - **Clean-up activity** means _closing the resources associated with that object like Database Connection, Network Connection or we can say resource de-allocation_. Remember it is not a reserved keyword.
+    - Once finalize method completes immediately Garbage Collector destroy that object. finalize method is present in Object class and its syntax is:
 
 ```protected void finalize throws Throwable{}```
-
 
 - **Exception in finalize method**
 
