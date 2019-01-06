@@ -20,7 +20,7 @@
 [Java tutorial](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
 
 - What is GC?
-    - GC is the mechanism to automatically detect/delete the unused objects.
+    - GC is the mechanism to automatically **detect**/**delete** the unused objects.
     - Automatic garbage collection is the process of looking at heap memory, **identifying** which objects are in use and which are not, and **deleting** the unused objects. An in use object, or a referenced object, means that some part of your program still maintains a pointer to that object. An unused object, or unreferenced object, is no longer referenced by any part of your program. So the **memory** used by an unreferenced object **can be reclaimed**.
 - Why do we need it?
     - More efficiently manage dynamic memory allocation.
