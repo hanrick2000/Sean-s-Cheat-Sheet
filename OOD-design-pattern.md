@@ -99,7 +99,7 @@ public static void main(String[] args){
 
 **Motivation**
 
-- Ensure a class has only one instance and provide a global access point to that instance.
+- Ensure a class has o**nly one instance** and **provide a global access point** to that instance.
 
 ```java
 public class Singleton {
