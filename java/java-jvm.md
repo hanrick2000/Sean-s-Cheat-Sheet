@@ -87,7 +87,7 @@ from a set of the root references/objects, find all the objects reachable throug
     - **Clean-up activity** means _closing the resources associated with that object like Database Connection, Network Connection or we can say resource de-allocation_. Remember it is not a reserved keyword.
     - Once finalize method completes immediately Garbage Collector destroy that object. finalize method is present in Object class and its syntax is:
 
-```protected void finalize throws Throwable{}```
+    ```protected void finalize throws Throwable{}```
 
 - **Exception in finalize method**
 
