@@ -94,5 +94,5 @@ from a set of the root references/objects, find all the objects reachable throug
     
 ## Class Loader
 
-
-
+[1](https://segmentfault.com/a/1190000008491597)
+[2](https://www.ibm.com/developerworks/cn/java/j-lo-classloader/index.html)
