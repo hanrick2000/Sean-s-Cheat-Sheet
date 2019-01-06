@@ -34,27 +34,28 @@
         - only one per JVM
 - How does it work?
     - Step 1. **Marking**
-        - The first step in the process is called **marking**. This is where the garbage collector identifies which pieces of memory are in use and which are not.
+        - This is where the garbage collector **identifies** which pieces of memory are in use and which are not.
         - ![marking](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide3.png)
     - Step 2. **Normal Deletion**
         - Normal deletion **removes** unreferenced objects leaving referenced objects and pointers to free space.
         - Inconvenient to allocate space again due to too **many fragments**, so we need compacting.
         - ![normal deletion](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1b.png)
     - Step 2a **Deletion with Compacting**
-        - To further improve performance, in addition to deleting unreferenced objects, you can also **compact** the remaining referenced objects. By **moving referenced object together**, this makes new memory allocation much easier and faster.
+        - To further improve performance, in addition to deleting unreferenced objects, you can also **compact** the remaining referenced objects. 
+        - By **moving referenced object together**, this makes new memory allocation much easier and faster.
         - ![deletion with compacting](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide4.png)
 
 ### Why Generational Garbage Collection?
 
 As stated earlier, having to mark and compact all the objects in a JVM is inefficient. As more and more objects are allocated, the list of objects grows and grows leading to longer and longer garbage collection time. However, empirical analysis of applications has shown that most objects are short lived.
 
-[!](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/ObjectLifetime.gif)
+![](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/ObjectLifetime.gif)
 
-#### JVM Generations
+### JVM Generations
 
 The information learned from the object allocation behavior can be used to enhance the performance of the JVM. Therefore, the heap is broken up into smaller parts or generations. The heap parts are: **Young Generation**, **Old or Tenured Generation**, and **Permanent Generation**
 
-[!](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide5.png)
+![](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide5.png)
 
 The **Young Generation** is where all new objects are allocated and aged. When the young generation fills up, this causes a **minor garbage collection**. Minor collections can be optimized assuming a high object mortality rate. A young generation full of dead objects is collected very quickly. Some surviving objects are aged and eventually move to the old generation.
 
