@@ -4,12 +4,12 @@
 
 - **JRE** 
     - Java Runtime Environment
-    - JRE is the JVM program.
+    - JRE is the JVM program
+    - ![HotSpot JVM: Architecture](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1.png).
 - **JDK** 
     - Java Development Kit
     - JDK contains the tools for developing Java programs running on JRE.
     - for example, it provides the compiler 'javac'
-    - [!HotSpot JVM: Architecture](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1.png)
 
 ## Garbage Collection
 
