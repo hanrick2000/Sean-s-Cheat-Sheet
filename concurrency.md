@@ -85,11 +85,10 @@ newThread.start();
 newThread.interrupt();
 ```
 
-**When the JVM will exit?**
-
-- **no alive non-daemon threads**
-    - default thread is non-daemon
-    - create daemon thread using `Thread.setDaemon()` method
+- **When the JVM will exit?**
+    - **no alive non-daemon threads**
+        - default thread is non-daemon
+        - create daemon thread using `Thread.setDaemon()` method
 
 **Thread Operations**
 
