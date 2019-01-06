@@ -91,4 +91,8 @@ from a set of the root references/objects, find all the objects reachable throug
 
 - **Exception in finalize method**
     - If Garbage Collector calls finalize method, while executing finalize method some unchecked exception rises then **JVM ignores that exception** and rest of program will be continued normally. So in this case the program termination is Normal and not abnormal.
+    
+## Class Loader
+
+
 
