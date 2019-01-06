@@ -9,6 +9,11 @@
 - reduce the number of constructors
 - control the exposure of limited data while having multiple options to initialize an instance
 - ensure when an instance is completedly initialized semantically
+- ```User user = new User.UserBuilder("San", "Zhang")
+.age(25)
+.phone("1234567890")
+.address("Fake Address")
+.build()```
 
 ```java
 public class User {
