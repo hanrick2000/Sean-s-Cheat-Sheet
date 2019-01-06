@@ -6,8 +6,9 @@
 
 **Motivation**
 
-- reduce the number of constructors
-- control the exposure of limited data while having multiple options to initialize an instance
+- **reduce the number of constructors**
+- **control the exposure of limited data while having multiple options to initialize an instance**
+    - Data can be accessed when initializing but not after.
 - ensure when an instance is completedly initialized semantically
 - ```User user = new User.UserBuilder("San", "Zhang")
 .age(25)
