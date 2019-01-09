@@ -111,17 +111,24 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
 
 - Recursion II.
     - on each level, we have lots of branches, which represent all the possible and smaller or equal factors.
-    - only expand factors that are less than or equal to the previous factor
+    - **only expand factors that are less than or equal to the previous factor**
     
 ```
                 12
-        /    |    |    \
-        6    4    3     2
-       /     |    |     |
-      2      3    2     2
-                  |     |
-                  2(v)  x
+        /    |      |    \
+        6(2) 4(3)  3(4)  2(6)
+       /     |      |     |
+      2      3      2     2(3)
+                    |     |
+                    2(v)  x
 ```
+
+- Memorization
+    ```
+    List<Integer> findCombination(int num, int[] factors) {
+        if ()
+    }
+    ```
 
 #### P6. Print all permutations of ([{
 
