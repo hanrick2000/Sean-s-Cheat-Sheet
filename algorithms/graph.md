@@ -125,8 +125,8 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
 
 - Memorization
     ```
-    List<List<Integer>> findCombination(int num, int[] factors, int index, Map<Integer, List<List<Integer>>>) {
-        if ()
+    List<List<Integer>> findCombination(int num, int[] factors, int index, Map<Integer, List<List<Integer>>> mem) {
+        if (mem.containsKey(num)) return mem.get(num);
         if (num == 1) return new ArrayList<>();
         
         List<List<Integer>> newRes = new ArrayList<>();
