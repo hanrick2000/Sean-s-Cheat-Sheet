@@ -26,6 +26,7 @@
 
 ## Other problems
 
+* [Recursion](algorithms/recursion.md)
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Big Data Situation](algorithms/bigdatasituation.md)
 * [Bit](algorithms/bit.md)
@@ -60,3 +61,4 @@
   * [Data Structure](programming-languages/python/data-structure.md)
   * [异步](programming-languages/python/yi-bu.md)
 * [C++](programming-languages/C++.md)
+
