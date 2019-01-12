@@ -2,6 +2,53 @@
 
 # Design Pattern
 
+## Singleton
+
+[Java Singleton Design Pattern Practices Examples](https://www.geeksforgeeks.org/java-singleton-design-pattern-practices-examples/)
+
+**Motivation**
+
+- Ensure a class has **only one instance** and **provide a global access point** to that instance.
+
+**Eager initialization**
+
+- simple to implement
+- always create the instance whether it is required or not
+- exception handling is not possible
+
+```java
+public class Singleton {
+    private _static_ final Singleton INSTANCE = new Singleton();
+    _private_ Singleton() {}
+    
+    _public static_ Singleton getInstance(){
+        return INSTANCE;
+    }
+}
+```
+
+**Thread safe/lazy initialization Singleton**
+
+- lazy initialization and thread safe
+- getInstance() method is synchronized so it causes slow performance as multiple threads can’t access it simultaneously.
+- improvement: change critcal section limited to create the instance.
+
+```java
+public class Singleton {
+    private static final Singleton instance;
+    private Singleton() {}
+    synchronized public static Singleton getInstance() {
+        if (instance == null) {
+            instance == new Singleton();
+        }
+        return instance;
+    }
+}
+```
+
+
+
+
 ## Builder Pattern
 
 **Motivation**
@@ -95,19 +142,3 @@ public static void main(String[] args){
 - abstract class `ControllerFactory` defines the way to create classes like `Button`, `InputBox` and other controllers.
 - `IOSControllerFactory`, `AndroidControllerFactory` extends the abstract factory `ControllerFactory`.
 
-## Singleton
-
-**Motivation**
-
-- Ensure a class has o**nly one instance** and **provide a global access point** to that instance.
-
-```java
-public class Singleton {
-    private _static_ final Singleton INSTANCE = new Singleton();
-    _private_ Singleton() {}
-    
-    _public static_ Singleton getInstance(){
-        return INSTANCE;
-    }
-}
-```
