@@ -148,6 +148,7 @@ return hashNumber & 0x7fffffff;
 - in Java: TreeMap/TreeSet
 - implements `NavigableMap`
     - Methods `lowerEntry`, `floorEntry`, `ceilingEntry`, and `higherEntry` return `Map.Entry` objects associated with keys respectively **less than**, **less than or equal**, **greater than or equal**, and **greater than** a given key, returning `null` if there is no such key
+    - `firstKey()`, `firstEntry()`, `lastKey()`, `lastEntry()`
 
 
 
